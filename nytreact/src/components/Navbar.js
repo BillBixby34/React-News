@@ -21,10 +21,13 @@ const styles = {
 
 const Navbar = () => (
   <nav style={styles.navbarStyle} className="navbar">
+    <span>
     <a style={styles.anchorStyle} href="/">
-      Welcome
+      Home
     </a>
+    </span>
   </nav>
+
 );
 
 export default Navbar;

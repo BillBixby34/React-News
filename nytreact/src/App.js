@@ -1,14 +1,15 @@
 import React from "react";
+import Container from "./components/Container";
 import Header from "./components/Header";
 import Section from "./components/Section";
-import Navbar from "./components/Navbar";
+
 
 const App = () => (
-  <div>
-    <Navbar />
+  
+  <Container>
     <Header />
     <Section />
-  </div>
+  </Container>
 );
 
 export default App;

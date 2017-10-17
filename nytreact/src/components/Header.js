@@ -23,10 +23,10 @@ const styles = {
 // We use JSX curly braces to evaluate the style object
 
 const Header = () => (
-  <header style={styles.headerStyle} className="header">
-    <h1 style={styles.headingStyle}>New York Times Article Scrubber</h1>
+  <div className="jumbotron">
+    <h1>New York Times Article Scrubber</h1>
     <h3 style={styles.subHeaderStyle}>Search for and annotate articles of interest!</h3>
-  </header>
+  </div>
 );
 
 export default Header;
