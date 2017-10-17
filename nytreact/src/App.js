@@ -4,7 +4,9 @@ import Container from "./components/Container";
 import Header from "./components/Header";
 import Section from "./components/Section";
 
-
+//setup routes
+//set route pages
+//set apps
 const App = () => (
   
   <Container>
