@@ -16,7 +16,8 @@ const styles = {
     fontSize: 100
   },
   subHeaderStyle: {
-  	color: "gray"
+  	color: "gray",
+    text-align: "center"
   }
 };
 
